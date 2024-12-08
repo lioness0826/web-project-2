@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 
-
 module.exports = {
     mode: 'development',
     entry: './scripts/plugin.js', // 修改为你的入口文件

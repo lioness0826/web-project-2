@@ -8,7 +8,6 @@ function validation(event){
     let emailCheck1=emailPattern.test(email);
     let emailCheck2=emailPattern.test(emailConfirm);
     let isValid=true;
-
     if(name==""){
         $("#s-span-1").innerText="Name is required.";
         isValid=false;
