@@ -415,4 +415,182 @@ margin-bottom: 20px;
 }
 
 
+/*
+
+    Eric Horniblow
+    ID: N01677339
+
+*/
+
+
+
+#home_eric body header{
+    margin-top: 80px;
+}
+    
+#home_eric nav{
+    margin-top: 0px;
+}
+
+#home_eric body{
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.eric-grid-container{
+
+    display: grid;
+
+    grid-template-areas:
+    'nav-header header header header'
+    'nav main1 main2 main3'
+    'footer footer footer footer';
+    padding-bottom: 15%;
+
+    gap: 5%;
+
+
+}
+
+.eric-grid-main{
+    text-align: center;
+}
+
+
+
+.eric-list-image{
+    max-width: 15em;
+    max-height: 18em;
+    justify-content: center;
+}
+
+.eric-list-image:hover{
+    box-shadow: 0 0 3px 3px whitesmoke;
+}
+
+.eric-item-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.eric-item-caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    text-align: left;
+
+}
+
+.eric-section-caption{
+    grid-area: nav-header;
+
+}
+
+.eric-nav-grid{
+    grid-area: nav;
+}
+.eric-button{
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 12em;
+    height: 5em;
+    background-color: transparent;
+    border-style: groove;
+    color: whitesmoke;
+    margin-bottom: 2%;
+
+}
+
+.eric-button:hover{
+    box-shadow: 0 0 3px 3px whitesmoke;
+}
+
+#main-cap{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#grid-main-1{
+    grid-area: main1;
+}
+
+#grid-main-2{
+    grid-area: main2;
+}
+
+#grid-main-3{
+    grid-area: main3;
+}
+
+#main-subheading{
+    margin-bottom: 15%;
+}
+
+#eric-career-header{
+    text-align: center;
+}
+
+#eric-career-label{
+    text-align: center;
+}
+
+#career-form-section{
+    text-align: center;
+}
+
+#eric-flex-container{
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.eric-career-subtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -5%;
+}
+
+.eric-career-desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.eric-flex-item{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eric-career-list li{
+    margin-left: 5%;
+    font-size: 100%;
+    list-style-type: circle;
+    text-align: left;
+}
+
+#eric-career-gap{
+    margin-bottom: 10%;
+}
+
+#eric-career-form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+}
+
+#eric-career-form br{
+    margin-bottom: 1%;
+}
+#eric-career-form input{
+    margin-bottom: 1%;
+}
+
+.eric-grid-footer{
+    margin-top: 5%;
+    grid-area: footer;
+    text-align: left;
+}
 
